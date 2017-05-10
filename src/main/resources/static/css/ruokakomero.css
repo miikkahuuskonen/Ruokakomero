@@ -1,0 +1,55 @@
+body {
+	background: url(wood.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+#otsikko {
+	color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    font-weight: bold;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #c6bcb6}
+
+th {
+    background-color: #96897f;
+    color: white;
+}
+
+#pHeading {
+	background: #625750;
+	color: white;
+	
+}
+
+#logout, #poista{
+    background-color: #d96459;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+input[type=button] {
+    background-color: #625750;
+    border: none;
+    color: white;
+    padding: 7px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

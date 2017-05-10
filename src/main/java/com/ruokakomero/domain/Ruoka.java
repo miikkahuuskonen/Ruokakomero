@@ -14,14 +14,16 @@ public class Ruoka {
 	private String title;
 	private String amount;
 	private String info;
+	private String date;
 	
 	public Ruoka() {		
 	}
 	
-	public Ruoka(String title, String amount, String info) {
+	public Ruoka(String title, String amount, String info, String date) {
 		this.title = title;
 		this.amount = amount;
 		this.info = info;
+		this.date = date;
 	}
 
 	public Long getId() {
@@ -56,10 +58,20 @@ public class Ruoka {
 		this.info = info;
 	}
 
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
 	@Override
 	public String toString() {
-		return "Ruoka [id=" + id + ", title=" + title + ", amount=" + amount + ", info=" + info + "]";
+		return "Ruoka [id=" + id + ", title=" + title + ", amount=" + amount + ", info=" + info + ", date=" + date + "]";
 	}
+
+	
 	
 	
 	
